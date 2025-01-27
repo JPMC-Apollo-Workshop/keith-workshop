@@ -81,12 +81,12 @@ See Variant for more info.
 """
 type Product @key(fields: "sku") @key(fields: "id") {
   id: ID!
-  productName: String!
+  name: String! 
   sku: String!
   description: String
   images: [String]
   price: Float!
-  attributes: [Attribute]
+  productAttributes: [Attribute]
   variants: [ProductVariant]
   featured: Boolean!
   shortDescription: String
