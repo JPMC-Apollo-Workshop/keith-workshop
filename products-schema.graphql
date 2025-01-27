@@ -81,7 +81,7 @@ See Variant for more info.
 """
 type Product @key(fields: "sku") @key(fields: "id") {
   id: ID!
-  name: String! 
+  name: String!
   sku: String!
   description: String
   images: [String]
